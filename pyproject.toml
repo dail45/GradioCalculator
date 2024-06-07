@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gradiocalculator"
+version = "0.1.0"
+description = ""
+authors = ["dail45 <dail45@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sympy = "^1.12.1"
+pandas = "^2.2.2"
+gradio = "^4.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
